@@ -1,35 +1,57 @@
-Crypto Challenge Set 1
+Crypto Challenge Set 1-6
 ====================
 
-This is the qualifying set. We picked the exercises in it to ramp developers up gradually into coding cryptography, but also to verify that we were working with people who were ready to write code.
 
-This set is relatively easy. With one exception, most of these exercises should take only a couple minutes. But don't beat yourself up if it takes longer than that. It took Alex two weeks to get through the set!
+- [x] 1. Convert hex to base64
+- [x] 2. Fixed XOR
+- [x] 3. Single-byte XOR cipher
+- [x] 4. Detect single-character XOR
+- [x] 5. Implement repeating-key XOR
+- [x] 6. Break repeating-key XOR
+- [x] 7. AES in ECB mode
+- [x] 8. Detect AES in ECB mode
 
-If you've written any crypto code in the past, you're going to feel like skipping a lot of this. Don't skip them. At least two of them (we won't say which) are important stepping stones to later attacks.
+- [x] 9. Implement PKCS#7 padding
+- [x] 10. Implement CBC mode
+- [x] 11. An ECB/CBC detection oracle
+- [x] 12. Byte-at-a-time ECB decryption (Simple)
+- [x] 13. ECB cut-and-paste
+- [x] 14. Byte-at-a-time ECB decryption (Harder)
+- [x] 15. PKCS#7 padding validation
+- [x] 16. CBC bitflipping attacks
+	
+- [x] 17. The CBC padding oracle
+- [x] 18. Implement CTR, the stream cipher mode
+- [x] 19. Break fixed-nonce CTR mode using substitutions
+- [x] 20. Break fixed-nonce CTR statistically
+- [x] 21. Implement the MT19937 Mersenne Twister RNG
+- [x] 22. Crack an MT19937 seed
+- [x] 23. Clone an MT19937 RNG from its output
+- [x] 24. Create the MT19937 stream cipher and break it
 
-1. Convert hex to base64
-2. Fixed XOR
-3. Single-byte XOR cipher
-4. Detect single-character XOR
-5. Implement repeating-key XOR
-6. Break repeating-key XOR
-7. AES in ECB mode
-8. Detect AES in ECB mode
+- [x] 25. Break "random access read/write" AES CTR
+- [x] 26. CTR bitflipping
+- [x] 27. Recover the key from CBC with IV=Key
+- [x] 28. Implement a SHA-1 keyed MAC
+- [x] 29. Break a SHA-1 keyed MAC using length extension
+- [ ] 30. Break an MD4 keyed MAC using length extension
+- [x] 31. Implement and break HMAC-SHA1 with an artificial timing leak
+- [x] 32. Break HMAC-SHA1 with a slightly less artificial timing leak
 
-Crypto Challenge Set 2
-====================
+- [x] 33. Implement Diffie-Hellman
+- [ ] 34. Implement a MITM key-fixing attack on Diffie-Hellman with parameter injection
+- [ ] 35. Implement DH with negotiated groups, and break with malicious "g" parameters
+- [ ] 36. Implement Secure Remote Password (SRP)
+- [ ] 37. Break SRP with a zero key
+- [ ] 38. Offline dictionary attack on simplified SRP
+- [ ] 39. Implement RSA
+- [ ] 40. Implement an E=3 RSA Broadcast attack
 
-This is the first of several sets on block cipher cryptography. This is bread-and-butter crypto, the kind you'll see implemented in most web software that does crypto.
-
-This set is relatively easy. People that clear set 1 tend to clear set 2 somewhat quickly.
-
-Three of the challenges in this set are extremely valuable in breaking real-world crypto; one allows you to decrypt messages encrypted in the default mode of AES, and the other two allow you to rewrite messages encrypted in the most popular modes of AES.
-
-Implement PKCS#7 padding
-Implement CBC mode
-An ECB/CBC detection oracle
-Byte-at-a-time ECB decryption (Simple)
-ECB cut-and-paste
-Byte-at-a-time ECB decryption (Harder)
-PKCS#7 padding validation
-CBC bitflipping attacks
+- [ ] 41. Implement unpadded message recovery oracle
+- [ ] 42. Bleichenbacher's e=3 RSA Attack
+- [ ] 43. DSA key recovery from nonce
+- [ ] 44. DSA nonce recovery from repeated nonce
+- [ ] 45. DSA parameter tampering
+- [ ] 46. RSA parity oracle
+- [ ] 47. Bleichenbacher's PKCS 1.5 Padding Oracle (Simple Case)
+- [ ] 48. Bleichenbacher's PKCS 1.5 Padding Oracle (Complete Case)
